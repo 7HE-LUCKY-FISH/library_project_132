@@ -2,23 +2,29 @@
 
 A full-stack library management system with a React frontend, a FastAPI backend, and a MySQL database.
 
-## Tech Stack
+## Start Up
 
-### Frontend
-- React
-- Vite
-- React Router
-- Axios
+### Database 
+Make sure MySQL8 is installed
+Start the MySQL server
 
 ### Backend
-- FastAPI
-- SQLAlchemy
-- Pydantic
-- Python-Dotenv
-- Uvicorn
+```
+ cd backend
+ python scripts.py # Populates the database
+ python main.py # Starts API
 
-### Database
-- MySQL
+```
+
+### Frontend
+Make sure Node.js 20.0+ is installed
+```
+cd frontend
+npm i
+npm run dev
+
+```
+
 
 ## Project Structure
 
