@@ -13,8 +13,10 @@ Start the MySQL server
  cd backend
  python scripts.py # Populates the database
  python main.py # Starts API
-
 ```
+
+Create a .env file mathcing the .env.example
+
 
 ### Frontend
 Make sure Node.js 20.0+ is installed
@@ -22,9 +24,13 @@ Make sure Node.js 20.0+ is installed
 cd frontend
 npm i
 npm run dev
-
 ```
 
+Default admin account is: 
+
+user: admin
+
+password: adminpassword
 
 ## Project Structure
 
