@@ -28,9 +28,11 @@ npm run dev
 
 Default admin account is: 
 
+```
 user: admin
 
 password: adminpassword
+```
 
 ## Project Structure
 
