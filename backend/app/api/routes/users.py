@@ -6,6 +6,9 @@ from ..deps import CurrentIdentity, DBSession, require_role
 from ...schemas import BookResponse, UserDashboard
 from ...services import book_service, user_service
 
+# This is where all the user APIs live and what they use
+
+
 router = APIRouter(prefix="/user", tags=["user"])
 UserIdentity = Annotated[CurrentIdentity, Depends(require_role("user"))]
 

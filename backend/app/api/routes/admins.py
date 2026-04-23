@@ -13,6 +13,9 @@ from ...schemas import (
 )
 from ...services import admin_service
 
+
+# This is setting the primary API backend to for admin. They have roles seperate from the rest of the user and librarians
+
 router = APIRouter(prefix="/admin", tags=["admin"])
 AdminIdentity = Annotated[CurrentIdentity, Depends(require_role("admin"))]
 

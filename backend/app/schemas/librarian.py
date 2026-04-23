@@ -1,7 +1,5 @@
 from datetime import datetime
-
 from pydantic import BaseModel, EmailStr
-
 from .common import ORMModel
 
 
