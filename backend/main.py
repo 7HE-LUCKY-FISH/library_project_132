@@ -8,6 +8,9 @@ from app.core.config import get_settings
 from app.main import app
 
 
+# make sure there no errors with CORS
+# clear the local API
+
 if __name__ == "__main__":
     settings = get_settings()
     if settings.api_reload:
