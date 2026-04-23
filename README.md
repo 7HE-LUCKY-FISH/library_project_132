@@ -2,6 +2,8 @@
 
 A full-stack library management system with a React frontend, a FastAPI backend, and a MySQL database.
 
+For backend detail look at [backend guide](backend/Guide.md)
+
 ## Start Up
 
 ### Database 
